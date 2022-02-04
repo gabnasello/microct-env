@@ -8,21 +8,18 @@ R package added:
 - lmerTest
 
 -------------------------------
-v. 20220117
+v. 20220204
 
-Docker container from jupyter/r-notebook:latest
+Docker container built on slicer/slicer-notebook
 
-Python packages added:
+Slicer extensions added to lassoan/slicer-notebook:2021-10-15-b3077c2 :
 
-- lckr-jupyterlab-variableinspector
-
-R packages added:
-
-- devtools
-- repr
-- svglite
-- latex2exp
-- rstatix
-- ggpubr
-- ggsci
-- tidyverse
+- SlicerDcm2nii,
+- Sandbox,
+- RawImageGuess,
+- SurfaceWrapSolidify,
+- MarkupsToModel,
+- SegmentEditorExtraEffects,
+- SlicerIGT,
+- Auto3dgm,
+- SlicerMorph
