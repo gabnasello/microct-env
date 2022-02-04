@@ -1,13 +1,4 @@
 -------------------------------
-v. 20220124
-
-- Adding RStudio Server and rstudio username
-
-R package added:
-
-- lmerTest
-
--------------------------------
 v. 20220204
 
 Docker container built on slicer/slicer-notebook
