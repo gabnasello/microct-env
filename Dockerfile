@@ -10,4 +10,7 @@ RUN bash ${HOME}/install.sh ${HOME}/Slicer/Slicer
 RUN rm install_SlicerMorph.py
 RUN rm install.sh
 
+# Install scikit-image
+RUN ./Slicer/bin/PythonSlicer -m pip install scikit-image
+
 CMD ["sh", "-c", "./Slicer/bin/PythonSlicer -m jupyter notebook --port=$JUPYTERPORT --allow-root --ip=0.0.0.0 --no-browser --NotebookApp.default_url=/lab/"]
