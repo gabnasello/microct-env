@@ -32,7 +32,7 @@ echo "XORG_PID [$XORG_PID]"
 #'
 
 #echo "Install SlicerMorph extension"
-$slicer_executable --python-script install_SlicerMorph.py
+$slicer_executable --python-script install_SlicerExtensions.py
 
 
 ################################################################################

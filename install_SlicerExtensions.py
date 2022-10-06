@@ -37,7 +37,8 @@ if __name__ == '__main__':
                     'SegmentEditorExtraEffects', 
                     'SlicerIGT',
                     'Auto3dgm',
-                    'SlicerMorph']
+                    'SlicerMorph',
+                    'SegmentMesher']
 
     for pckg in extension_list:
 

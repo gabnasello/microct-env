@@ -4,10 +4,10 @@
 FROM lassoan/slicer-notebook:2021-10-15-b3077c2
 
 # Install Slicer extensions
-ADD install_SlicerMorph.py ${HOME}/
+ADD install_SlicerExtensions.py ${HOME}/
 ADD install.sh ${HOME}/
 RUN bash ${HOME}/install.sh ${HOME}/Slicer/Slicer
-RUN rm install_SlicerMorph.py
+RUN rm install_SlicerExtensions.py
 RUN rm install.sh
 
 # Install scikit-image

@@ -1,4 +1,11 @@
 -------------------------------
+v. 20221006
+
+Slicer extension added:
+
+- SegmentMesher
+
+-------------------------------
 v. 20220204
 
 Docker container built on slicer/slicer-notebook

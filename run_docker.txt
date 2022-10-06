@@ -1,6 +1,8 @@
 docker build --no-cache -t gnasello/microct-env:latest .
 docker build -t gnasello/microct-env:latest .
 
+docker build --no-cache -t gnasello/microct-env:20221006 .
+
 docker images
 docker rmi imageID -f
 
@@ -16,7 +18,7 @@ docker run -it --rm  \
                 -p 8888:8888 -p49053:49053 \
                 --volume $HOME:/home/sliceruser/work \
                 --user root \
-                gnasello/microct-env:latest
+                gnasello/microct-env:20221006
 
 chmod -R 777 ./
 
