@@ -12,5 +12,7 @@ RUN rm install.sh
 
 # Install scikit-image
 RUN ./Slicer/bin/PythonSlicer -m pip install scikit-image
+# Install pyvista
+RUN ./Slicer/bin/PythonSlicer -m pip install pyvista
 
 CMD ["sh", "-c", "./Slicer/bin/PythonSlicer -m jupyter notebook --port=$JUPYTERPORT --allow-root --ip=0.0.0.0 --no-browser --NotebookApp.default_url=/lab/"]

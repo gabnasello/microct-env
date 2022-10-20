@@ -1,8 +1,6 @@
 docker build --no-cache -t gnasello/microct-env:latest .
 docker build -t gnasello/microct-env:latest .
 
-docker build --no-cache -t gnasello/microct-env:20221006 .
-
 docker images
 docker rmi imageID -f
 
