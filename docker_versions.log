@@ -1,4 +1,14 @@
 -------------------------------
+v. 20221206
+
+Update to Slicer 5.03 [docker image lassoan/slicer-notebook:5.0.3] 
+
+Python packages installed:
+
+- trimesh
+- aicsimageio
+
+-------------------------------
 v. 20221020
 
 Python package installed:
