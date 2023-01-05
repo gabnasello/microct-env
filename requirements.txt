@@ -3,3 +3,5 @@ pyvista
 trimesh
 aicsimageio
 aicspylibczi
+matplotlib
+tqdm

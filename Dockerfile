@@ -1,5 +1,5 @@
 # Slicer/SlicerDocker
-# https://github.com/Slicer/SlicerDocker
+# https://github.com/Slicer/SlicerDocker/blob/main/slicer-notebook/Dockerfile
 
 FROM lassoan/slicer-notebook:5.0.3
 

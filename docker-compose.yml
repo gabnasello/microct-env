@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  microct-environment:
+    image: gnasello/microct-env:20230103
+    build: .
+    ports:
+      - 8888:8888
+      #- 49053:49053
+    volumes:
+      - /home/luna.kuleuven.be/u0128401/:/home/sliceruser/work
+    user: root
+    working_dir: /home/sliceruser
+    container_name: microct-u0128401
+    #stdin_open: true # to have an interactive shell with the docker-compose setup
+    #tty: true # to have an interactive shell with the docker-compose setup
