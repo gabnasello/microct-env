@@ -5,3 +5,5 @@ aicsimageio
 aicspylibczi
 matplotlib
 tqdm
+tetgen
+pymeshfix

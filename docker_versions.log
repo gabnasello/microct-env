@@ -1,4 +1,12 @@
 -------------------------------
+v. 20230110
+
+Python packages installed:
+
+tetgen
+pymeshfix
+
+-------------------------------
 v. 20230103
 
 Add docker-compose.yaml file
