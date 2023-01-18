@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  microct-environment:
-    image: gnasello/microct-env:20230103
+  microct-env:
+    image: gnasello/microct-env:20230111
     build: .
     ports:
       - 8888:8888
